@@ -1,13 +1,15 @@
 package conversor;
 
-import conversor.view.Principal;
+import conversor.igu.Principal;
 
-public class Conversor {
+public class conversor {
 
-    public static void main(String[] args) {
-        Principal principal = new Principal();
-        principal.setVisible(true);
-        principal.setLocationRelativeTo(null);
-    }
-    
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Principal princ = new Principal();
+		princ.setVisible(true);
+		princ.setLocationRelativeTo(null);
+
+	}
+
 }
